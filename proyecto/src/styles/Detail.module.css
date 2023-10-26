@@ -1,0 +1,43 @@
+.dentistContainer {
+  width: 100%;
+  text-align: center;
+  transition: color 0.6s;
+  margin-bottom: 100px;
+  padding: 0 10px;
+}
+
+:global(.dark) .dentistContainer {
+  color: #ffffff;
+}
+
+.h2 {
+  margin: 40px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th,
+.td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.loadingMessage {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transition: color 0.6s;
+}
+
+:global(.dark) .loadingMessage {
+  color: #ffffff;
+}
